@@ -7,10 +7,10 @@ to classify each digit as correctly as possible.
 (b) Measure the distribution over the labels in the training data. (Hint: This is often called
 the prior probability of the classes). Report whether each label is uniformly distributed
 across the training examples.
-(c) Implement a multiclass classication via logistic regression and try to vary the parameters
+(c) Implement a multiclass classification via logistic regression and try to vary the parameters
 so that you can achieve the best performance on our Kaggle dataset. (Hint: Feel free to
 refer to the code,2 but note that you should use the dataset downloaded from Kaggle!)
-(d) Implement a neural-net classier with varying the number of hidden layers and neurons
+(d) Implement a neural-net classifier with varying the number of hidden layers and neurons
 there. Compare the performance with the result from (c). Report the interesting images.
 For example, if the number `3' is the label with the lowest precision, the incorrectly
 labeled as `3' that must not be `3' (i.e., false positives) and the incorrectly labeled as
